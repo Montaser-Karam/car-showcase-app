@@ -18,12 +18,12 @@ class _CarScreenState extends State<CarScreen> {
 
       body: Stack(
         children: [
-          // 🌄 BACKGROUND IMAGE (Full Luxury Feel)
+          // BACKGROUND IMAGE (Full Luxury Feel)
           Positioned.fill(
             child: Image.asset("assets/images/car2.jpg", fit: BoxFit.cover),
           ),
 
-          // 🌑 DARK OVERLAY + VIGNETTE
+          //  DARK OVERLAY + VIGNETTE
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
@@ -42,7 +42,7 @@ class _CarScreenState extends State<CarScreen> {
           SafeArea(
             child: Column(
               children: [
-                // 🔝 TOP BAR
+                // TOP BAR
                 Padding(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 16,
@@ -69,7 +69,7 @@ class _CarScreenState extends State<CarScreen> {
 
                 const Spacer(),
 
-                // 🚗 MAIN HERO CONTENT (Luxury Card)
+                //  MAIN HERO CONTENT (Luxury Card)
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Container(
@@ -244,7 +244,7 @@ class _CarScreenState extends State<CarScreen> {
   }
 }
 
-// 🧩 MINI STAT
+//  MINI STAT
 class _MiniStat extends StatelessWidget {
   final String text;
 
